@@ -1,0 +1,6 @@
+Flask
+google-generativeai
+python-dotenv
+openai-whisper
+deepl
+werkzeug
