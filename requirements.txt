@@ -1,0 +1,7 @@
+streamlit
+whisper
+openai-whisper
+deepl
+google-generativeai
+python-dotenv
+werkzeug
