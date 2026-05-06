@@ -32,7 +32,7 @@ if not all([GEMINI_API_KEY, DEEPL_API_KEY, MUSICAPI_API_KEY]):
 # Initialize models
 @st.cache_resource
 def load_models():
-    whisper_model = whisper.load_model("large-v3-turbo")
+    whisper_model = whisper.load_model("base")
     translator = deepl.Translator(DEEPL_API_KEY)
     agent = MusicAgentChat()
     return whisper_model, translator, agent
